@@ -1,0 +1,279 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+}
+
+nav {
+  width: 100%;
+  background-color: #1f202b;
+  height: 70px;
+}
+
+h3 {
+  font-family: 'source code pro' , monospace;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36pt;
+  text-transform: lowercase;
+  color: #fa0005;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21pt;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18pt;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+  line-height: 19pt;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  opacity: 1.0;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** NAV BAR *****/
+
+nav ul {
+  overflow: hidden;
+  float: right;
+  padding: 5px 0px;
+}
+
+nav ul li{
+display: inline-block;
+}
+
+nav ul li a {
+text-transform: lowercase;
+text-decoration: none;
+font-size: 18px;
+color: #ffffff;
+margin-right: 20px;
+}
+
+nav h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  font-weight: 400;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+/**** HEADER*****/
+
+#front-page-header {
+  height: 700px;
+  background: url('../img/hero-background.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: -3.75rem;
+}
+
+header h2 {
+  font-family: 'source code pro' , monospace;
+  font-weight: 600;
+  font-size: 52pt;
+  text-transform: lowercase;
+  color: #ffffff;
+  padding: 100px 0px 65px 0px;
+  margin-left: 20px;
+}
+
+header h2 span {
+  color: #fa0005;
+}
+
+/***** PORTFOLIO *****/
+
+main {
+  background-color: #1f202b;
+  margin-top: -9rem;
+}
+
+section {
+  background-color: #1f202b;
+}
+
+#portfolio {
+  height: auto;
+  overflow: auto;
+}
+
+#portfolio h3 {
+  padding: 25px 0px;
+}
+
+.portfolio-image-left {
+  padding: 0px;
+  margin: 20px;
+  clear: both;
+  overflow: hidden;
+}
+
+.portfolio-image-right {
+  padding: 0px;
+  margin: 20px;
+  clear: both;
+  overflow: hidden;
+}
+
+.portfolio-text-left h4 {
+  text-align: left;
+  color: #ffffff;
+  clear: both;
+  padding: 0px 20px;
+}
+
+.portfolio-text-left p {
+  width: 85%;
+  text-align: left;
+  color: #ffffff;
+  clear: both;
+  padding: 0px 20px;
+}
+
+.portfolio-text-right h4 {
+  text-align: right;
+  color: #ffffff;
+  clear: both;
+  padding: 0px 30px;
+}
+
+.portfolio-text-right p {
+  text-align: right;
+  color: #ffffff;
+  clear: both;
+  padding: 0px 30px;
+}
+
+.portfolio-row-one, .portfolio-row-two, .portfolio-row-three, .portfolio-row-four {
+  background-color: #1f202b;
+  clear: both;
+}
+
+/***** ABOUT *****/
+
+#about {
+  height: auto;
+  background: url('../img/about-me.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#about h3 {
+  padding: 25px 0px;
+}
+
+#about h5 {
+  color: #1f202b;
+  margin-top: -1rem;
+  margin-left: 10px;
+}
+
+#about p {
+  text-align: left;
+  padding: 0px 0px 90px 0px;
+  margin-left: 10px;
+}
+
+#about span {
+  font-weight: 700;
+}
+
+.transbox {
+  width: 65%;
+  margin: 20px;
+  opacity: 1.0;
+  text-align: left;
+}
+
+/***** CONTACT*****/
+
+#contact {
+  height: auto;
+  overflow: auto;
+  background-color: #1f202b;
+}
+#contact h5 {
+  color: #ffffff;
+  text-align: center;
+}
+#contact p {
+  color: #ffffff;
+  text-align: center;
+}
+
+#social-media ul {
+  list-style: none;
+}
+
+#social-media li {
+  display: inline-block;
+}
+
+#social-media ul img {
+  padding: 25px;
+  margin-top: -2rem;
+}
+
+#social-media a {
+  background-color: #1f202b;
+}
+
+#copyright {
+  text-align: center;
+  color: #ffffff;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+/*****OUR APPROACH*****/
+
+#top-image {
+  height: 600px;
+  background: url('../img/code-development.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: -3.75rem;
+  margin-bottom: 3rem;
+}
+
+.approach-image-right {
+  padding: 0px;
+  margin: 20px;
+  overflow: hidden;
+  clear: both;
+}
+
+.approach-image-left {
+  padding: 0px;
+  margin: 20px;
+  overflow: hidden;
+  clear: both;
+}
